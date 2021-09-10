@@ -1,0 +1,76 @@
+const BUFFER_SIZE = 1<<16
+var buffer = make([]byte, BUFFER_SIZE)
+var bufferPointer = 0
+var bytesRead = 0
+
+func readLine() string {
+    var buf []byte
+    c := read()
+    for c != byte(255) {
+        if c == '\n' {
+            break
+        }
+        buf = append(buf, c)
+        c = read()
+    }
+    return string(buf)
+}
+func skip(x int){
+    if x < 0 && 0 < bufferPointer-x{
+        bufferPointer += x
+    } else if x > 0{
+        if bufferPointer+x < bytesRead{
+            bufferPointer += x
+        } else {
+            for i := 0; i < x; i++ {
+                read()
+            }
+        }
+    }
+}
+func next() string {
+    var buf []byte
+    c := read()
+    for c != byte(255) {
+        if c == ' ' || c == '\n' {
+            break
+        }
+        buf = append(buf, c)
+        c = read()
+    }
+    return string(buf)
+}
+
+func nextInt() int {
+    ret := 0
+    c := read()
+    for c <= ' ' {
+        c = read()
+    }
+    neg := c == '-'
+    for c >= '0' && c <= '9'{
+        ret = ret * 10 + int(c) - '0'
+        c = read()
+    }
+    if neg {
+        return -ret
+    }
+    return ret
+}
+
+
+func fillBuffer() {
+    bytesRead, _ = os.Stdin.Read(buffer)
+    if bytesRead == 0 {
+        buffer[0] = 255
+    }
+    bufferPointer = 0
+}
+
+func read() byte {
+    if bytesRead == bufferPointer{
+        fillBuffer()
+    }
+    bufferPointer++
+    return buffer[bufferPointer-1]
+}
