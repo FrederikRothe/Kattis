@@ -1,5 +1,4 @@
 using System;
-using System.Numerics;
 
     class InverseFactorial
     {
@@ -10,7 +9,7 @@ using System.Numerics;
                     
             if(digits < 4)
             {
-                BigInteger number = BigInteger.Parse(input);
+                int number = int.Parse(input);
                 Console.WriteLine(pre_definedFactorial(number));
             }
             else
@@ -28,7 +27,7 @@ using System.Numerics;
                 }
             }
         }
-        static BigInteger pre_definedFactorial(BigInteger n)
+        static int pre_definedFactorial(int n)
             {
                 return n == 1 ? 1 : n == 2 ? 2 : n == 6 ? 3 : n == 24 ? 4 : n == 120 ? 5 : 6;
             }
