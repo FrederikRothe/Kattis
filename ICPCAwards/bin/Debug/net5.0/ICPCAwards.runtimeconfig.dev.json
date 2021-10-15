@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Frakty\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Frakty\\.nuget\\packages"
+    ]
+  }
+}

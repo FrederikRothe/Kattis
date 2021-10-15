@@ -1,0 +1,16 @@
+C:\Users\Frakty\desktop\kattis\ICPCAwards\bin\Debug\net5.0\ICPCAwards.exe
+C:\Users\Frakty\desktop\kattis\ICPCAwards\bin\Debug\net5.0\ICPCAwards.deps.json
+C:\Users\Frakty\desktop\kattis\ICPCAwards\bin\Debug\net5.0\ICPCAwards.runtimeconfig.json
+C:\Users\Frakty\desktop\kattis\ICPCAwards\bin\Debug\net5.0\ICPCAwards.runtimeconfig.dev.json
+C:\Users\Frakty\desktop\kattis\ICPCAwards\bin\Debug\net5.0\ICPCAwards.dll
+C:\Users\Frakty\desktop\kattis\ICPCAwards\bin\Debug\net5.0\ref\ICPCAwards.dll
+C:\Users\Frakty\desktop\kattis\ICPCAwards\bin\Debug\net5.0\ICPCAwards.pdb
+C:\Users\Frakty\desktop\kattis\ICPCAwards\obj\Debug\net5.0\ICPCAwards.csproj.AssemblyReference.cache
+C:\Users\Frakty\desktop\kattis\ICPCAwards\obj\Debug\net5.0\ICPCAwards.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Frakty\desktop\kattis\ICPCAwards\obj\Debug\net5.0\ICPCAwards.AssemblyInfoInputs.cache
+C:\Users\Frakty\desktop\kattis\ICPCAwards\obj\Debug\net5.0\ICPCAwards.AssemblyInfo.cs
+C:\Users\Frakty\desktop\kattis\ICPCAwards\obj\Debug\net5.0\ICPCAwards.csproj.CoreCompileInputs.cache
+C:\Users\Frakty\desktop\kattis\ICPCAwards\obj\Debug\net5.0\ICPCAwards.dll
+C:\Users\Frakty\desktop\kattis\ICPCAwards\obj\Debug\net5.0\ref\ICPCAwards.dll
+C:\Users\Frakty\desktop\kattis\ICPCAwards\obj\Debug\net5.0\ICPCAwards.pdb
+C:\Users\Frakty\desktop\kattis\ICPCAwards\obj\Debug\net5.0\ICPCAwards.genruntimeconfig.cache
